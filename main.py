@@ -27,7 +27,7 @@ class Database:
         self._data: list = []
 
     def load_from_filename(self, filename: str):
-        with open(filename, "r") as f:
+        with open(filename, "rb") as f:
             data = orjson.loads(f.read())
             for record in data:
                 obj = MovieRecord.from_dict(record)
@@ -56,3 +56,10 @@ class Database:
 
     def count(self) -> int:
         return len(self._data)
+
+db = Database()
+db.load_from_filename('characters.json')
+
+app = FastAPI(title="Game of thrones Rest API", version="0.1", docs_url="/docs")
+
+app.is_shutdown = False
