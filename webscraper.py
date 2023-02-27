@@ -52,15 +52,16 @@ with open("characters.json",  "w", encoding='utf-8') as file:
         first_episode_name = ""
         first_episode_year = 0
 
-        if dsoup.find('b', string='Television') is not None and dsoup.find('b', string='Television').select("a") != []:
+        if dsoup.find('b', string='Television') is not None and len(dsoup.find('b', string='Television').findParent('li').find_next_sibling('li').select("a")) > 0:
             first_episode_element = dsoup.find('b', string='Television').findParent('li').find_next_sibling('li')
             first_episode_name = first_episode_element.select("a")[0].text
             first_episode_year = first_episode_element.text[first_episode_element.text.find('(') + 1:first_episode_element.text.find(')')]
         else:
             first_episode_element = dsoup.find('th', string='First appearance').find_next_sibling('td')
-            first_episode_name = first_episode_element.select("a")[0].text
-            first_episode_year = first_episode_element.text[first_episode_element.text.find('(') + 1:first_episode_element.text.find(')')]
-        print(first_episode_year)
+            first_episode_name = first_episode_element.select("a")[1].text
+            first_episode_year = first_episode_element.text[first_episode_element.text.replace("(", "", 1).replace(")", "", 1).find('(') + 3
+                                                            :first_episode_element.text.replace("(", "", 1).replace(")", "", 1).find(')') + 2]
+        print(first_episode_name, first_episode_year)
     file.write(']')
 
 
