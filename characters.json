@@ -1,1 +1,308 @@
-[]
+[
+  {
+    "name": "Ned Stark",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/5/52/Ned_Stark-Sean_Bean.jpg/220px-Ned_Stark-Sean_Bean.jpg",
+    "actor": "Sean Bean",
+    "familys": ["House Stark"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "In A Game of Thrones (1996), Ned Stark is introduced as the virtuous and honorable patriarch of House Stark and the father of six children. The moral compass of the story, he is content to remain far from courtly intrigues and is unwavering in his view of loyalty and honor. His family name, Stark, serves as an indication of his resistance to moral compromise, but his boundaries are increasingly tested over the course of the novel. Finding himself a key player in the escalating political intrigue of King's Landing, Ned struggles as his own sense of honor draws him into corrupt goings-on at court. As the story progresses, he begins to see the importance of moral and practical compromises to achieve a just end, and is ultimately forced to choose between the safety of his family and doing what is right."
+  },
+  {
+    "name": "Robert Baratheon",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/0/06/Robert_Baratheon_Profile_Mark_Addy.jpg/220px-Robert_Baratheon_Profile_Mark_Addy.jpg",
+    "actor": "Mark Addy",
+    "familys": ["House Baratheon"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Robert Baratheon was the oldest son and heir of Lord Steffon Baratheon and Lady Cassana Estermont. In his youth, he was the ward of Jon Arryn and was raised at the Eyrie alongside Eddard Stark, with whom he was closer than his brothers. When he was 16, his parents drowned and died during a storm, and he became the Lord of Storm's End. He was betrothed to Ned's younger sister Lyanna, with whom he was madly (and unrequitedly) in love. After Lyanna disappeared with Rhaegar Targaryen, and the execution of Eddard's father, Rickard and brother, Brandon Stark King Aerys II called for Robert and Ned's heads. Jon Arryn refused and began what is now called Robert's Rebellion. Robert played a key role in the downfall of the Targaryen dynasty and killed Rhaegar in single combat.  He married Cersei Lannister to ensure House Lannister's support for his rule."
+  },
+  {
+    "name": "Jaime Lannister",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Jaime_Lannister-Nikolaj_Coster-Waldau.jpg/220px-Jaime_Lannister-Nikolaj_Coster-Waldau.jpg",
+    "actor": "Nikolaj Coster-Waldau",
+    "familys": ["House Lannister"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "In A Game of Thrones (1996), Jaime is introduced as one of the Kingsguard, the royal security detail, the son of the wealthy and powerful Tywin Lannister (the former Hand of the King), and one of the greatest swordsmen in the Seven Kingdoms with few able to match him, such as Ned Stark, Jon Snow and Brienne of Tarth. Jaime's twin is Cersei, the Queen of Westeros by virtue of her marriage to King Robert Baratheon. Perhaps the greatest swordsman in the kingdom, Jaime is derisively referred to as the Kingslayer because he killed the Mad King Aerys Targaryen in the coup that put Robert on the Iron Throne."
+  },
+  {
+    "name": "Catelyn Stark",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/6/6f/Catelyn_Stark_by_Roman_Papsuev.jpg/250px-Catelyn_Stark_by_Roman_Papsuev.jpg",
+    "actor": "Michelle Fairley",
+    "familys": ["House Tully", "House Stark"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Catelyn was originally betrothed to Eddard's older brother Brandon Stark, the heir to Winterfell at the time.  When Brandon was sadistically executed by King Aerys II, Lord Jon Arryn, who was the guardian of Eddard and Robert Baratheon, rebelled against House Targaryen.  Soon after the rebels won the Battle of the Bells, Catelyn was married to Eddard, having never met the new groom before the wedding day, to consolidate the alliance between the Riverlands and the North. She was initially disappointed as Eddard was shorter and perceived to be less handsome than his brother Brandon, but later fell in love with him after seeing the good sweet heart beneath his solemn face."
+  },
+  {
+    "name": "Cersei Lannister",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/2/22/Cersei_Lannister_in_Black_Dress_in_Season_5.jpg/220px-Cersei_Lannister_in_Black_Dress_in_Season_5.jpg",
+    "actor": "Lena Headey",
+    "familys": ["House Lannister", "House Baratheon"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Cersei is the only daughter and the eldest child of 56-year-old Tywin Lannister and his late wife, Joanna; her twin brother, Jaime, was born soon after Cersei. At the beginning of the novels, Cersei is 32 years old and has been queen consort for 14 years. "
+  },
+  {
+    "name": "Daenerys Targaryen",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/8/89/Daenerys_Targaryen_A_Clash_of_Kings_Illustrated_Edition.jpeg/200px-Daenerys_Targaryen_A_Clash_of_Kings_Illustrated_Edition.jpeg",
+    "actor": "Emilia Clarke",
+    "familys": ["House Targaryen"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Daenerys Targaryen is the daughter of King Aerys II Targaryen (also referred to as The Mad King) and his sister-wife Queen Rhaella, and is one of the last survivors of House Targaryen. She serves as the third-person point-of-view character of 31 chapters of A Game of Thrones, A Clash of Kings, A Storm of Swords, and A Dance with Dragons. This makes her the series' fourth most prominent narrative voice after Tyrion Lannister, Jon Snow and Arya Stark."
+  },
+  {
+    "name": "Jorah Mormont",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/d/d5/Jorah_Mormont-Iain_Glen.jpg/220px-Jorah_Mormont-Iain_Glen.jpg",
+    "actor": "Iain Glen",
+    "familys": ["House Mormont"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Ser Jorah Mormont is the only child of the Night's Watch's Lord Commander Jeor Mormont, who abdicated shortly before Robert's Rebellion to join the Night's Watch and let Jorah assume the lordship of Bear Island. At some point Jorah married a lady of House Glover, who died from miscarriage after ten years of marriage. Jorah fought in Greyjoy's Rebellion, distinguishing himself by being one of the first to enter the fray during the siege of Pyke and was knighted by King Robert Baratheon. At a tourney at Lannisport celebrating the Baratheon victory, Jorah fell in love with the beautiful Lynesse Hightower (aunt of Margaery Tyrell). He named her Queen of Love and Beauty after winning the tourney and asked her father for her hand in marriage, which he accepted. However, Lynesse found herself ill-suited to the rough life on Bear Island, having grown up as a member of the wealthy House Hightower. Jorah bankrupted himself trying to provide her with luxuries and eventually sold poachers found on his lands to a Tyroshi slaver to fund her lifestyle. His liege lord, Eddard Stark, condemned Jorah to death, but he and Lynesse fled to Lys. Jorah then made his living as a sellsword, but was still unable to provide enough to satisfy Lynesse, and eventually returned from a campaign to find that Lynesse had become a concubine of a wealthy Lysene merchant. The merchant warned Jorah that he would be enslaved to settle his debts if he remained in Lys and Jorah was forced to flee again. Afterwards he drifted among the Free Cities and the Dothraki, before becoming a spy for Varys."
+  },
+  {
+    "name": "Jon Snow (character)",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/3/30/Jon_Snow_Season_8.png/220px-Jon_Snow_Season_8.png",
+    "actor": "Kit Harington",
+    "familys": ["House Stark", "House Targaryen"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "In A Game of Thrones, Jon Snow is introduced as the 14-year-old illegitimate son of Eddard Ned Stark, Lord of Winterfell, and half-brother to Robb, Sansa, Arya, Bran and Rickon. Jon is described as having strong Stark features with a lean build, long face, dark brown hair, and dark grey eyes. Jon has the surname Snow (customarily used for illegitimate noble children in the North) and is resented by Ned's wife Catelyn, who views him as a constant reminder of Ned's infidelity. Jon is the same age as Robb and enjoys a warm relationship with his siblings, particularly the tomboy Arya (who resembles Jon, and like him does not feel like she fits in). Ned treats Jon as much like his other children as propriety and his honor will allow. Still, as somewhat of an outsider, Jon has learned to be independent and to fend for himself when necessary. Jon idolizes his father, but is wounded by Ned's refusal to tell him about his mother. At the beginning of the story, Jon adopts the albino direwolf that he names Ghost. He later finds that at times he can inhabit the wolf and share its experiences."
+  },
+  {
+    "name": "Robb Stark",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/c/ce/Robb_Stark-Richard_Madden.jpg/220px-Robb_Stark-Richard_Madden.jpg",
+    "actor": "Richard Madden",
+    "familys": ["House Stark"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Robb is 14 years old at the beginning of A Game of Thrones (17 on the TV series). He is the oldest legitimate son of Eddard Ned Stark and his wife Catelyn, and has five siblings: younger sisters Sansa and Arya, younger brothers Bran and Rickon, and a bastard half-brother Jon Snow. He is also a close friend to Eddard's ward Theon Greyjoy.  Robb is constantly accompanied by his direwolf, Grey Wind.  Like most of his siblings, Robb inherited his mother's Tully features, being strong and fast with a stocky build, blue eyes and thick red-brown hair."
+  },
+  {
+    "name": "Sansa Stark",
+    "image_url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/93/A_Song_of_Ice_and_Fire_arms_of_House_Stark_running_direwolf_white_scroll.png/170px-A_Song_of_Ice_and_Fire_arms_of_House_Stark_running_direwolf_white_scroll.png",
+    "actor": "Sophie Turner",
+    "familys": ["House Stark", "House Lannister"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Sansa Stark is the second child and the elder of the two daughters born to Lord Eddard Stark and Lady Catelyn Stark, the ruling liege of the North.  She was born and raised in Winterfell with an older brother Robb, a younger sister Arya, two younger brothers Bran and Rickon, as well as an older bastard half-brother Jon Snow.  Through her mother, Sansa is also first cousin to Robert Arryn, the lord paramount of The Vale; and the niece of Edmure Tully, the lord paramount of the Riverlands.  She was once betrothed to Crown Prince Joffrey Baratheon, and is still legally married (though never consummated) to Tyrion Lannister by the end of A Dance with Dragons."
+  },
+  {
+    "name": "Arya Stark",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/3/39/Arya_Stark-Maisie_Williams.jpg/220px-Arya_Stark-Maisie_Williams.jpg",
+    "actor": "Maisie Williams",
+    "familys": ["House Stark"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Arya was born in 289 AC (After (Aegon's) Conquest) as the third child and youngest daughter of Lord Eddard and Lady Catelyn Stark of Winterfell, the ruling liege of the North, and is nine years old at the beginning of the book series and 11 in season 1 of the show.  She has five siblings: an older brother Robb, an older sister Sansa, two younger brothers Bran and Rickon, and an older illegitimate half-brother, Jon Snow.  Through her mother, she is also first cousin to Robert Arryn, the lord paramount of The Vale; and the niece of Edmure Tully, the lord paramount of the Riverlands."
+  },
+  {
+    "name": "Theon Greyjoy",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/5/51/Theon_Greyjoy-Alfie_Allen.jpg/220px-Theon_Greyjoy-Alfie_Allen.jpg",
+    "actor": "Alfie Allen",
+    "familys": ["House Greyjoy", "House Stark"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Theon Greyjoy is the heir apparent and only living son of Balon Greyjoy. Theon is the narrator for a total of thirteen chapters in the second and fifth novels, A Clash of Kings and A Dance with Dragons. Theon is 19, he is lean and handsome and he has long black hair. He always smiles and he seems to find everything amusing."
+  },
+  {
+    "name": "Bran Stark",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/5/55/Bran_Stark_Graphic_Novel_Depiction.jpeg/220px-Bran_Stark_Graphic_Novel_Depiction.jpeg",
+    "actor": "Isaac Hempstead Wright",
+    "familys": ["House Stark"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "The youngest point of view character in the novels, Bran is in the very first chapter and was set up by Martin as a young hero of the series.  Mikal Gilmore of Rolling Stone noted in 2014 that the moment in A Game of Thrones in which Jaime Lannister pushes Bran to his likely death grabs you by the throat. Martin commented in the interview:"
+  },
+  {
+    "name": "Joffrey Baratheon",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/b/bd/Joffrey_Baratheon-Jack_Gleeson.jpg/220px-Joffrey_Baratheon-Jack_Gleeson.jpg",
+    "actor": "Jack Gleeson",
+    "familys": ["House Lannister", "House Baratheon"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Joffrey Baratheon is not a point of view character in the novels, so his actions are witnessed and interpreted through the eyes of other people, such as his uncle Tyrion Lannister and his one-time fiancée Sansa Stark. He inherits his mother's traditional Lannister looks, and has blond hair and green eyes, and is believed by many to be very handsome."
+  },
+  {
+    "name": "Sandor Clegane",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/5/59/The_Hound_in_%27The_Children%27.jpg/220px-The_Hound_in_%27The_Children%27.jpg",
+    "actor": "Rory McCann",
+    "familys": ["House Clegane"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Sandor Clegane, known also as The Hound, is the younger brother of Gregor Clegane, and was a retainer to House Lannister. He was regarded as one of the most dangerous and skilled fighters in Westeros. His size (in the novels he is 6'8, or 2 m and over 300 lbs, or 140 kg) and strength makes him an imposing figure, though he is not even as large as his brother Gregor. His visage is distinguished by gruesome burn scars that he received as a child, when his brother forced his head into a brazier. Consequently, Clegane fears fire and hates his brother. He is cynical and scornful of a knight's vows and their code of honor, as Gregor is a brutal knight utterly devoid of any morality or even humanity, a sadist who delights and revels in rape, bloodshed and violence. Clegane was described as a tormented man, driven by anger and hate, suffering from childhood post-traumatic stress disorder and obsessed with killing his brother."
+  },
+  {
+    "name": "Tyrion Lannister",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/5/50/Tyrion_Lannister-Peter_Dinklage.jpg/220px-Tyrion_Lannister-Peter_Dinklage.jpg",
+    "actor": "Peter Dinklage",
+    "familys": ["House Lannister"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "In A Game of Thrones (1996), Tyrion is introduced as the third and youngest child of wealthy and powerful Tywin Lannister, the former Hand of the King, and Joanna Lannister, who dies giving birth to him. Tyrion's elder sister, Cersei, is the Queen of Westeros by virtue of her marriage to King Robert Baratheon, and Cersei's male twin, Jaime, is one of the Kingsguard, the royal bodyguard. Described as an ugly (for all the world like a gargoyle), malformed dwarf with different colored eyes, green and black, Tyrion possesses the white-blond hair of a Lannister but has a complicated relationship with the rest of them. While he is afforded the privilege and luxuries of his family, he is treated as a second class noble because of his stature.[10] Tyrion's mother, Joanna, died giving birth to him and Tywin and Cersei loathe him because they blame him for her death. While Tywin bears no affection for Tyrion, he nevertheless feels a sense of duty to his son, raising him in the Lannister fold and extending Tyrion a share of the family wealth. In contrast to Tywin and Cersei, Jaime has great affection for Tyrion and treats him with kindness, respect, friendship and love.[11] Lev Grossman of Time wrote in 2011:"
+  },
+  {
+    "name": "Petyr Baelish",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/d/d5/Aidan_Gillen_playing_Petyr_Baelish.jpg/220px-Aidan_Gillen_playing_Petyr_Baelish.jpg",
+    "actor": "Aidan Gillen",
+    "familys": ["Catelyn Stark", "Edmure Tully"],
+    "first_episode_name": "Lord Snow",
+    "first_episode_year": 2011,
+    "character_description": "Littlefinger is not a point of view character in the novels, so his actions are witnessed and interpreted through the eyes of other people, such as Ned Stark, Catelyn Stark, Sansa Stark, Tyrion and Cersei Lannister."
+  },
+  {
+    "name": "Davos Seaworth",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/9/98/Davos_Seaworth_Sitting_Liam_Cunningham.jpg/220px-Davos_Seaworth_Sitting_Liam_Cunningham.jpg",
+    "actor": "Liam Cunningham",
+    "familys": ["House Seaworth"],
+    "first_episode_name": "The North Remembers",
+    "first_episode_year": 2012,
+    "character_description": "Davos is of low birth, being born to the life of a poor commoner in King's Landing's Flea Bottom.  In his youth, he became one of the most infamous smugglers of the Seven Kingdoms, often piloting his black-sailed ship into harbors in the dead of night, and navigated treacherous shallows.  He married a woman named Marya, with whom he had seven sons: Dale, Allard, Matthos, Maric, Devan, Stannis and Steffon."
+  },
+  {
+    "name": "Samwell Tarly",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/4/4d/Samwell_Tarly-John_Bradley.jpg/220px-Samwell_Tarly-John_Bradley.jpg",
+    "actor": "John Bradley",
+    "familys": ["House Tarly"],
+    "first_episode_name": "Cripples, Bastards, and Broken Things",
+    "first_episode_year": 2011,
+    "character_description": "Samwell Tarly is the elder son and firstborn child of Lord Randyll Tarly of Horn Hill and his wife Lady Melessa Florent, and has four siblings — younger sister Talla, two other unnamed sisters, and a younger brother Dickon.  Through his mother, Samwell is also second cousin to Shireen Baratheon and Edric Storm, who were born to Melessa's first cousins Selyse and Delena.  He has dark hair, pale eyes and a large moon-shaped face, and is very obese.  Jon Snow originally comments that Sam is the fattest boy he has ever seen, and estimates him to weigh twenty stone (130 kg; 280 lb)."
+  },
+  {
+    "name": "Stannis Baratheon",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/0/0f/King_Stannis_Baratheon_Profile_Picture_Down_Facing.jpeg/220px-King_Stannis_Baratheon_Profile_Picture_Down_Facing.jpeg",
+    "actor": "Stephen Dillane",
+    "familys": ["House Baratheon"],
+    "first_episode_name": "The North Remembers",
+    "first_episode_year": 2012,
+    "character_description": "Stannis Baratheon is the younger brother of King Robert and older brother of Renly.[10] He is portrayed as a brooding and humorless man with a harsh but fair sense of duty and justice whose dour demeanor is often off-putting in comparison to his two more charismatic brothers. He is renowned as a skilled and prescient military commander. Although he is initially said to be extremely stubborn and inflexible, in later books he has shown some ability to use diplomacy and deception to achieve his goals."
+  },
+  {
+    "name": "Melisandre",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/8/80/Melisandre-Carice_van_Houten.jpg/220px-Melisandre-Carice_van_Houten.jpg",
+    "actor": "Carice van Houten",
+    "familys": [""],
+    "first_episode_name": "The North Remembers",
+    "first_episode_year": 2012,
+    "character_description": "Melisandre was born an unknown number of years before the start of the series, possibly with the name Melony.  As a child slave, she was sold to the Red Temple and trained for the priesthood.  Believing Stannis Baratheon to be the reincarnation of Azor Ahai, a mythic messiah prophesied by her faith, she travels to his island stronghold, Dragonstone, during the events of A Game of Thrones.  Tywin Lannister indirectly mentioned her as a shadowbinder from Asshai during a private conversation with Tyrion Lannister after the Battle in the Whispering Wood."
+  },
+  {
+    "name": "Varys",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/0/01/Varys-Conleth_Hill.jpg/220px-Varys-Conleth_Hill.jpg",
+    "actor": "Conleth Hill",
+    "familys": [""],
+    "first_episode_name": "Lord Snow",
+    "first_episode_year": 2011,
+    "character_description": "Varys is not a point of view character in the novels, so his actions are witnessed and interpreted through the eyes of other people, such as Ned Stark, Tyrion and Cersei Lannister."
+  },
+  {
+    "name": "Margaery Tyrell",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/3/37/Margaery_Tyrell_in_the_Gardens.jpg/220px-Margaery_Tyrell_in_the_Gardens.jpg",
+    "actor": "Natalie Dormer",
+    "familys": ["House Tyrell", "House Baratheon", "House Lannister"],
+    "first_episode_name": "What Is Dead May Never Die",
+    "first_episode_year": 2012,
+    "character_description": "Margaery is the only daughter of Alerie Hightower and Mace Tyrell, the Lord of Highgarden in the Reach. Her older brothers are the heir Willas, Garlan and Loras the Knight of Flowers, who is a member of the Kingsguard. One of the wealthiest and most powerful families in Westeros, House Tyrell is actually guided by the willful Lady Olenna, Mace's mother, who has arranged Margaery's marriages and mentors her in politics and court intrigue. Margaery Tyrell is not a point of view character in the novels, so her actions are witnessed and interpreted through the eyes of Sansa Stark and Cersei Lannister."
+  },
+  {
+    "name": "Tywin Lannister",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/b/b9/Tywin_Lannister_Profile_Charles_Dance.jpg/220px-Tywin_Lannister_Profile_Charles_Dance.jpg",
+    "actor": "Charles Dance",
+    "familys": ["House Lannister"],
+    "first_episode_name": "You Win or You Die",
+    "first_episode_year": 2011,
+    "character_description": "Tywin is Lord of Casterly Rock, Shield of Lannisport, and Warden of the West. Born heir apparent to Lord Tytos Lannister, who was perceived as a weak and ineffectual leader and often ridiculed by his bannermen, and was known as The toothless lion, Tywin developed an early distrust of mockery and laughter. When the Lannister bannermen of Houses Reyne and Tarbeck eventually revolted against the Lannisters' rule, the 19-year-old Tywin led the Lannister army in defeating the rebellious vassals by exterminating their Houses. The song The Rains of Castamere was written as a tribute to the event."
+  },
+  {
+    "name": "Gendry",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/9/9b/Gendry-Joe_Dempsie.jpg/220px-Gendry-Joe_Dempsie.jpg",
+    "actor": "Joe Dempsie",
+    "familys": ["House Baratheon"],
+    "first_episode_name": "Cripples, Bastards, and Broken Things",
+    "first_episode_year": 2011,
+    "character_description": "Gendry was conceived and born in King's Landing after Robert's Rebellion ended and is one of sixteen (twenty in the television series) bastard children of King Robert Baratheon.  He is fourteen years old when introduced in the first book, and is portrayed as tall and very muscled, having blue eyes and thick black hair, very similar to his biological father Robert in youth.  He also looks hauntingly like a younger version of Renly Baratheon, though with a squarer jaw, bushier brows and tangled hair, but resembles his biological uncle enough that for a moment Brienne of Tarth almost mistook him for the deceased Renly.  Gendry is an intelligent boy despite being born into poverty, but is also stubborn, sullen, suspicious, easily confused and shy around women, and Arya Stark commented that he looks pained when he tries to think."
+  },
+  {
+    "name": "Tormund Giantsbane",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/2/29/Tormund_Giantsbane_Profile_Kristopher_Hivju.jpg/220px-Tormund_Giantsbane_Profile_Kristopher_Hivju.jpg",
+    "actor": "Kristofer Hivju",
+    "familys": [""],
+    "first_episode_name": "Valar Dohaeris",
+    "first_episode_year": 2013,
+    "character_description": "Tormund, better known as Tormund Giantsbane or Tormund Thunderfist, is a famous wildling raider. On his massive arms he wears golden bands engraved with runes of the First Men, which have been passed down by his forefathers. Tormund is armored with heavy ringmail taken from a dead Night's Watch ranger. Like most of the wildlings, he is illiterate. He has four sons: Toregg, Torwynd, Dryn and Dormund; and one daughter, Munda."
+  },
+  {
+    "name": "Brienne of Tarth",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/9/93/Brienne_of_Tarth-Gwendoline_Christie.jpg/220px-Brienne_of_Tarth-Gwendoline_Christie.jpg",
+    "actor": "Gwendoline Christie",
+    "familys": ["House Tarth"],
+    "first_episode_name": "What Is Dead May Never Die",
+    "first_episode_year": 2012,
+    "character_description": "Brienne is the daughter and only surviving child of Lord Selwyn Tarth, Lord of Evenfall Hall on the island of Tarth. House Tarth is a bannerman to House Baratheon, the lord paramount of the Stormlands. Brienne's mother died when she was a child, and she had a single older brother, Galladon, who drowned when she was 8, and two younger sisters, both of whom died in infancy. Brienne as a child was under the tutelage of Septa Roelle, who found fault in everything about Brienne and destroyed her self-esteem. She told Brienne that although a man would marry her, as she is heir to her father's land, he could never desire her.[citation needed]"
+  },
+  {
+    "name": "Ramsay Bolton",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/5/5e/Ramsay_Bolton-_-Iwan_Rheon.jpg/220px-Ramsay_Bolton-_-Iwan_Rheon.jpg",
+    "actor": "Iwan Rheon",
+    "familys": ["House Bolton"],
+    "first_episode_name": "Dark Wings, Dark Words",
+    "first_episode_year": 2013,
+    "character_description": "Ramsay Bolton is not a point of view character in the novels, and remains mostly in the background.  His actions are witnessed and interpreted directly through the eyes of Theon Greyjoy, and indirectly from stories heard by Bran Stark and Davos Seaworth."
+  },
+  {
+    "name": "Daario Naharis",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/e/e9/Michiel_Huisman_as_Daario_Naharis.jpg/220px-Michiel_Huisman_as_Daario_Naharis.jpg",
+    "actor": "Ed Skrein (season 3)",
+    "familys": [""],
+    "first_episode_name": "Second Sons",
+    "first_episode_year": 2013,
+    "character_description": "Daario is a confident and seductive handsome and young warrior, and the commander of the Stormcrows, a company of sellswords comprising 500 mounted mercenaries."
+  },
+  {
+    "name": "Missandei",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/5/57/Missandie_Blue_Dress_Nathalie_Emmanuel.png/220px-Missandie_Blue_Dress_Nathalie_Emmanuel.png",
+    "actor": "Nathalie Emmanuel",
+    "familys": [""],
+    "first_episode_name": "Valar Dohaeris",
+    "first_episode_year": 2013,
+    "character_description": "As children, Missandei and her three brothers are captured by raiders from the Basilisk Isles and sold into slavery in Astapor. Missandei's talent for learning languages easily is noticed by the masters of Astapor, who train her as a scribe. Missandei's brothers Marselen and Mossador are made into Unsullied (the third brother is also made into an Unsullied but dies during his training). Missandei is an interpreter who becomes a close confidante and trusted advisor to Daenerys Targaryen. She is from the island of Naath, off the coast of Sothoryos. She is also a polyglot who speaks nineteen languages."
+  },
+  {
+    "name": "Tommen Baratheon",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/e/e5/Tommen_Baratheon-Dean-Charles_Chapman.jpg/220px-Tommen_Baratheon-Dean-Charles_Chapman.jpg",
+    "actor": "Callum Wharry (seasons 1–2)",
+    "familys": ["House Lannister", "House Baratheon"],
+    "first_episode_name": "Winter Is Coming",
+    "first_episode_year": 2011,
+    "character_description": "Prince Tommen Baratheon is the younger brother of Joffrey and Princess Myrcella and is second in line for the throne.  Tommen is Queen Cersei Lannister's youngest son and, like his siblings, he is also the son of Cersei's brother Jaime Lannister, but he is unaware of this, as he believes Robert Baratheon to be his father. Tommen is described as handsome and sweet-natured but weak-willed. Many characters in the narrative believe he would make a better, and more pliant, king than his brother Joffrey. He loves his kittens, and keeps several in both the novels and television show. Tommen is seven years old at the beginning of A Game of Thrones (1996)."
+  },
+  {
+    "name": "Ellaria Sand",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/8/85/Ellaria_Sand.jpg/220px-Ellaria_Sand.jpg",
+    "actor": "Indira Varma",
+    "familys": ["House Uller"],
+    "first_episode_name": "Two Swords",
+    "first_episode_year": 2014,
+    "character_description": "Ellaria Sand is a bastard of Harmen Uller, head of House Uller and Lord of Hellholt in Dorne. Dorne's views and customs towards children born out of wedlock differ from those of the rest of Westeros, where bastards are often discriminated against. She is the paramour of Oberyn Martell, as even in Dorne a Prince cannot marry a bastard. She is the mother of the youngest four Sand Snakes (Oberyn's bastard daughters). Like Oberyn, she is bisexual."
+  },
+  {
+    "name": "Roose Bolton",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/6/69/Roose_Bolton_Profile_in_the_Snow.jpg/220px-Roose_Bolton_Profile_in_the_Snow.jpg",
+    "actor": "Michael McElhatton",
+    "familys": ["House Bolton"],
+    "first_episode_name": "Garden of Bones",
+    "first_episode_year": 2012,
+    "character_description": "Lord Roose Bolton is a significant vassal of Lord Eddard Stark. His seat is the Dreadfort and his sigil is a flayed man, a homage to the ancient Bolton tradition of flaying enemies. He is nicknamed the Leech Lord for regular leechings meant to improve his health."
+  },
+  {
+    "name": "High Sparrow",
+    "image_url": "//upload.wikimedia.org/wikipedia/en/thumb/b/b7/Jonathan_Pryce_High_Sparrow_With_Candle.png/220px-Jonathan_Pryce_High_Sparrow_With_Candle.png",
+    "actor": "Jonathan Pryce",
+    "familys": [""],
+    "first_episode_name": "High Sparrow",
+    "first_episode_year": 2015,
+    "character_description": "The High Sparrow is a prominent member of the sparrows, a religious movement formed during the War of the Five Kings, and a septon (priest) in the Faith of the Seven. He is a small, thin, hard-eyed, grey-haired old man with a heavily lined face.  He does not wear rich robes or any gold; instead, he wears a simple white wool tunic."
+  }
+]

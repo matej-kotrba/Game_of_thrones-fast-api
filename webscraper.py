@@ -4,6 +4,7 @@ import requests
 # Import knihovny BeautifulSoup4 (pip install beautifulsoup4), která usnadňuje web scraping
 from bs4 import BeautifulSoup
 import json
+import re
 
 # Konstanta obsahující adresu webu, z něhož chceme získávat data
 # Žebříček 250 nejlépe hodnocených filmů podle serveru imdb.com
@@ -19,10 +20,9 @@ link_to_characters_pages = [f"https://en.wikipedia.org{item['href']}"
                              for item in soup.select('.wikitable:nth-of-type(1)>tbody>tr>td:nth-child(2)>a[href]')]
 
 with open("characters.json",  "w", encoding='utf-8') as file:
-    file.write('[')
-    for url in link_to_characters_pages:
-        print(url)
-        detail_page = requests.get(url, headers={'User-agent': 'Mozilla/5.0'})
+    file.write('[\n')
+    for i in range(len(link_to_characters_pages)):
+        detail_page = requests.get(link_to_characters_pages[i], headers={'User-agent': 'Mozilla/5.0'})
         dsoup = BeautifulSoup(detail_page.content, 'html.parser')
         if dsoup.find('th', string='Portrayed by') is None or dsoup.select('.mw-page-title-main') == []: 
             continue
@@ -40,7 +40,6 @@ with open("characters.json",  "w", encoding='utf-8') as file:
             actor = actor_element.select("li")[0].text
         else:
             actor = actor_element.select("a")[0].text
-        print(actor)
         familys = [""]
         if dsoup.find('th', string='Family'):
             familys_element = dsoup.find('th', string='Family').find_next_sibling('td')
@@ -61,7 +60,14 @@ with open("characters.json",  "w", encoding='utf-8') as file:
             first_episode_name = first_episode_element.select("a")[1].text
             first_episode_year = first_episode_element.text[first_episode_element.text.replace("(", "", 1).replace(")", "", 1).find('(') + 3
                                                             :first_episode_element.text.replace("(", "", 1).replace(")", "", 1).find(')') + 2]
-        print(first_episode_name, first_episode_year)
+            
+        character_description = re.sub(r'\[\d\]|\"', '', dsoup.select("h2 > span:nth-child(1)")[0].find_next("p").text)
+        character_description = character_description.rstrip("\n")
+
+        row = f'"name": "{name}", "image_url": "{image_url}", "actor": "{actor}", "familys": {json.dumps(familys)}, "first_episode_name": "{first_episode_name}", "first_episode_year": {first_episode_year}, "character_description": "{character_description}"'
+        row = '{' + row + '}'
+        row = row + ',\n' if i != len(link_to_characters_pages) - 2 else row + "\n"
+        file.write(row)
     file.write(']')
 
 
