@@ -15,29 +15,56 @@ URL = 'https://en.wikipedia.org/wiki/List_of_Game_of_Thrones_characters'
 page = requests.get(URL)
 # Vytvoření objektu parseru stránky
 soup = BeautifulSoup(page.content, 'html.parser')
-link_to_characters_pages = [URL.replace("/wiki/List_of_Game_of_Thrones_characters", "") + item["href"]
+link_to_characters_pages = [f"https://en.wikipedia.org{item['href']}"
                              for item in soup.select('.wikitable:nth-of-type(1)>tbody>tr>td:nth-child(2)>a[href]')]
 
 with open("characters.json",  "w", encoding='utf-8') as file:
     file.write('[')
-    for i in link_to_characters_pages:
-        detail_page = requests.get(urls[i], headers={'User-agent': 'Mozilla/5.0'})
+    for url in link_to_characters_pages:
+        print(url)
+        detail_page = requests.get(url, headers={'User-agent': 'Mozilla/5.0'})
         dsoup = BeautifulSoup(detail_page.content, 'html.parser')
-        content = dsoup.select('[data-testid=plot]>span[data-testid=plot-xs_to_m]')
-        runtime = (dsoup.select('[data-testid=hero-title-block__metadata]>li:last-child'))[0].text[0:-1].split('h ')
-        genre_links = dsoup.select('[data-testid=genres] a')
-        genres = [genre.text for genre in genre_links]
-        print(genres)
-        if len(runtime) > 1:
-            runtime = int(runtime[0]) * 60 + int(runtime[1])
+        if dsoup.find('th', string='Portrayed by') is None or dsoup.select('.mw-page-title-main') == []: 
+            continue
+        name = dsoup.select('.mw-page-title-main')[0].text
+        imageUrl = dsoup.select('.infobox-image img')
+        if imageUrl != []:
+            imageUrl = imageUrl[0]['src']
+        elif dsoup.select('.thumbimage') != []:
+            imageUrl = dsoup.select('.thumbimage')[0]['src']
         else:
-            runtime = int(runtime[0]) * 60
-        row = f'"title": "{titles[i]}", "year": {years[i]}, "runtime": {runtime}, "rating": {ratings[i]}, "description": "{content[0].text}", "director": "{directors[i]}", "actors": {json.dumps(actors[i])}, "url": "{urls[i]}", "genres": {json.dumps(genres)}'
-        row = '{' + row + '}, '
-        print(row)
-        file.write(row)
+            continue
+        actor_element = dsoup.find('th', string='Portrayed by').find_next_sibling('td')
+        actor = None
+        if actor_element.select("li") != []:
+            actor = actor_element.select("li")[0].text
+        else:
+            actor = actor_element.select("a")[0].text
+        print(actor)
+        familys = [""]
+        if dsoup.find('th', string='Family'):
+            familys_element = dsoup.find('th', string='Family').find_next_sibling('td')
+            if familys_element.select("a") != []:
+                familys = [item.text for item in familys_element.select("a")]
+            else:
+                familys = [familys_element.text]
+
     file.write(']')
 
+
+# content = dsoup.select('[data-testid=plot]>span[data-testid=plot-xs_to_m]')
+# runtime = (dsoup.select('[data-testid=hero-title-block__metadata]>li:last-child'))[0].text[0:-1].split('h ')
+# genre_links = dsoup.select('[data-testid=genres] a')
+# genres = [genre.text for genre in genre_links]
+# print(genres)
+# if len(runtime) > 1:
+#     runtime = int(runtime[0]) * 60 + int(runtime[1])
+# else:
+#     runtime = int(runtime[0]) * 60
+# row = f'"title": "{titles[i]}", "year": {years[i]}, "runtime": {runtime}, "rating": {ratings[i]}, "description": "{content[0].text}", "director": "{directors[i]}", "actors": {json.dumps(actors[i])}, "url": "{urls[i]}", "genres": {json.dumps(genres)}'
+# row = '{' + row + '}, '
+# print(row)
+# file.write(row)
 
     # movie_links = soup.select('article .film-title-norating')
 # year_links = soup.select('td.titleColumn>span')

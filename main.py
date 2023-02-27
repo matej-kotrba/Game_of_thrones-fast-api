@@ -7,8 +7,7 @@ class MovieRecord(BaseModel):
     description: str
     imageUrl: str
     actor: str
-    gender: str
-    origin: str
+    family: list[str]
     firstEpisodeName: str
     firstEpisodeYear: int
 
