@@ -27,11 +27,11 @@ with open("characters.json",  "w", encoding='utf-8') as file:
         if dsoup.find('th', string='Portrayed by') is None or dsoup.select('.mw-page-title-main') == []: 
             continue
         name = dsoup.select('.mw-page-title-main')[0].text
-        imageUrl = dsoup.select('.infobox-image img')
-        if imageUrl != []:
-            imageUrl = imageUrl[0]['src']
+        image_url = dsoup.select('.infobox-image img')
+        if image_url != []:
+            image_url = image_url[0]['src']
         elif dsoup.select('.thumbimage') != []:
-            imageUrl = dsoup.select('.thumbimage')[0]['src']
+            image_url = dsoup.select('.thumbimage')[0]['src']
         else:
             continue
         actor_element = dsoup.find('th', string='Portrayed by').find_next_sibling('td')
@@ -49,6 +49,18 @@ with open("characters.json",  "w", encoding='utf-8') as file:
             else:
                 familys = [familys_element.text]
 
+        first_episode_name = ""
+        first_episode_year = 0
+
+        if dsoup.find('b', string='Television') is not None and dsoup.find('b', string='Television').select("a") != []:
+            first_episode_element = dsoup.find('b', string='Television').findParent('li').find_next_sibling('li')
+            first_episode_name = first_episode_element.select("a")[0].text
+            first_episode_year = first_episode_element.text[first_episode_element.text.find('(') + 1:first_episode_element.text.find(')')]
+        else:
+            first_episode_element = dsoup.find('th', string='First appearance').find_next_sibling('td')
+            first_episode_name = first_episode_element.select("a")[0].text
+            first_episode_year = first_episode_element.text[first_episode_element.text.find('(') + 1:first_episode_element.text.find(')')]
+        print(first_episode_year)
     file.write(']')
 
 
