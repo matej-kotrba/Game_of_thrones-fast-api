@@ -26,7 +26,7 @@ with open("characters.json",  "w", encoding='utf-8') as file:
         dsoup = BeautifulSoup(detail_page.content, 'html.parser')
         if dsoup.find('th', string='Portrayed by') is None or dsoup.select('.mw-page-title-main') == []: 
             continue
-        name = dsoup.select('.mw-page-title-main')[0].text
+        name = dsoup.select('.mw-page-title-main')[0].text.replace(" (character)", "")
         image_url = dsoup.select('.infobox-image img')
         if image_url != []:
             image_url = image_url[0]['src']

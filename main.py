@@ -67,9 +67,18 @@ app = FastAPI(title="Game of thrones Rest API", version="0.1", docs_url="/docs")
 app.is_shutdown = False
 
 @app.get("/characters", response_model=dict[int, CharacterModel], description="Returns list of characters")
-async def get_characters():
-    return db.get_all()
-
+async def get_characters(houses: str | None = None): # Houses is optional parameter for filtering by house, insert house names separated by comma
+    data = db.get_all()
+    if houses is None:
+        return data
+    houses = houses.split(",")
+    filtered_data = {}
+    for i in range(len(data)):
+        for house in data[i].familys:
+            if house.replace("House ", "") in houses:
+                filtered_data[i] = data[i]
+                break
+    return filtered_data
 
 @app.get("/characters/{id_character}", response_model=CharacterModel, description="Returns character by id")
 async def get_character(id_character: int):
